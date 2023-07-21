@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action:hover {
+    cursor: pointer;
+    background-color: rgb(249, 184, 163);
+}
+
+#calculator {
+    width: 400px;
+    height: 450px;
+    background-color: rgb(140, 140, 141);
+
+}
+
+#heading {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 5px 10px;
+    padding: 5px;
+    font-size: 25px;
+}
+
+#display {
+    height: 100px;
+    width: 95%;
+    background-color: aliceblue;
+    margin: 10px auto;
+}
+
+#text {
+    position: relative;
+    top: 60%;
+    margin-left: 5px;
+    font-size: 34px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+#main-controls {
+    /* border: 1px solid black; */
+    width: 95%;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#main-controls .button {
+    /* border: 1px solid red; */
+    width: 24%;
+    height: 50px;
+    margin: 3px 0;
+    background-color: whitesmoke;
+}
+
+#main-controls .button .action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 24px;
+    font-weight: 800;
+    transition: 0.3s;
+}
+
+.last-line {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.last-line .zero {
+    width: 50%;
+    height: 50px;
+    margin-right: 4px;
+    background-color: whitesmoke;
+}
+
+.last-line .button1 {
+    /* border: 1px solid red; */
+    width: 25%;
+    height: 50px;
+    background-color: whitesmoke;
+}
+
+.last-line .action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-weight: 800;
+    font-size: 24px;
+    transition: 0.3s;
+}
+
+.m-left {
+    margin-left: 4px;
+}
+
+.b-red {
+    background-color: brown !important;
+    color: whitesmoke;
+}
